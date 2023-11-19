@@ -1,0 +1,84 @@
+.MainNavbar{
+    background-color: black;
+    height: 13vh;
+}
+
+.forflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forflexNumTwo{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.profileimages{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+
+.notification{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+
+}
+.SearchDiv{
+    margin-left: 27px;
+}
+.searchIconContainer {
+    border-right: 1px solid white;
+    padding-right: 5px;
+    margin-right: 10px;
+  }
+  
+  .searchIcon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: 7px;
+  }
+  
+  .inputStyle {
+    margin-top: 5px;
+    width: 15pc;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #454545;
+    border: none;
+    color: white;
+    outline: none;
+  }
+  
+  /* Добавьте стиль для фокуса на инпуте */
+  .inputStyle:focus {
+    border: 2px solid white;
+  }
+  
+
+.profileName{
+    color: white;
+    margin-left: 5px;
+
+}
+.notificationIcon{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    color: white;
+    
+
+}
+
+.divforTwo{
+    padding-right: 30px;
+}
